@@ -1,0 +1,41 @@
+ dashboard ************************************************************************** */
+    .container-navbar{
+        display: flex;
+        flex-direction: column;
+       background-color: rgb(49, 45, 45);
+        width: 90px;
+        height: 680px;
+
+    
+
+    }
+   
+    .container-navbar a{
+       
+        float: left;
+        padding: 12px;
+        color: rgb(250, 248, 248);
+        text-decoration: wavy;
+        font-size: 17px;
+        width: 10%;
+        text-align: center;
+    }
+    .container-navbar a:hover{
+        background-image: linear-gradient(to right, #33001b, #ff0084);
+        width: 80px;
+
+    }
+    .container-body{
+        background-color:black;
+    }
+    
+    .container-frame{
+        display: flex;
+        margin-top: 0;
+        margin-left: 95px;
+        justify-content:
+
+    }
+    body{
+        background-color: #33001b;
+    }

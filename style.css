@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+}
+.dash1{
+    background-image: url('clgback2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;;
+
+}
+.box{
+    position: relative;left: 1000px; top: 100px;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+   
+   
+}
+
+h2,h1{
+    
+    background-image: linear-gradient(to right, #00b09b, #96c93d);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.submit{
+
+    color: black;
+    background-image: linear-gradient(to right, #00b09b, #96c93d);
+
+    text-align: center ;
+    width: 70px;
+    height: 30px;
+    border-color: aqua;
+    border-radius: 12px;
+    margin-bottom: 35px;
+}
+
+input[type="email"]{
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background: none;
+    height: 25px;
+    width: 250px;
+    border-color:aqua;
+}
+
+input[type="password"]{
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background: none;
+    height: 25px;
+    width: 250px; 
+     border-color:aqua;
+
+   
+}
+
+input[type="email"]:hover{
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    
+    border-color: black;
+}
+
+input[type="password"]:hover{
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    
+    border-color: black;
+}
+ .iname{
+    color: blue;
+ }
+.std{
+    
+    text-align: center;
+    height: 120px;
+    width: 120px;
+}
+/* now register page------------------------------------------------------------------------------ */
+input[type="text"]{
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background: none;
+    height: 25px;
+    width: 250px;
+    border-color:aqua;
+}
+input[type="text"]:hover{
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    
+    border-color: black;
+}
+.box1{
+    position: relative;left: 1000px; top: 10px;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+}
+label{
+    color: antiquewhite;
+}
+/* dashboard ************************************************************************** */
+   *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   }
+
+.sidebar{
+    position: fixed;
+    width: 130px;
+    height: 100%;
+    background: rgb(49, 45, 45);;
+
+    }
+    .sidebar a{
+        display: block;
+        color: white;
+        height: 35px;
+        width: 100px;
+        padding-left: 30px;
+        font-size: 15px;
+        border-bottom: 1px solid #ff0084;
+       
+
+
+    }
+    .sidebar a:hover{
+        background-image: linear-gradient(to right, #33001b, #ff0084);
+        width: 140px;
+        padding-left: 20px;
+
+    } 
+    .sidebar header{
+        color: beige;
+        font-size: 25px;
+        border-bottom: 2px solid white;
+    }

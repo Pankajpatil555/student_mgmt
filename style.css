@@ -100,6 +100,7 @@ input[type="text"]:hover{
 }
 label{
     color: antiquewhite;
+    text-align: center;
 }
 /* dashboard ************************************************************************** */
    *{
@@ -137,4 +138,26 @@ label{
         color: beige;
         font-size: 25px;
         border-bottom: 2px solid white;
+    }
+    iframe{
+        background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+       margin-left: 130px;
+        border: 5px solid black;
+    }
+    .box-profile{
+
+        position: relative;left: 420px;top: 150px;
+        width: 450px;
+        
+        text-align: center;
+        
+    }
+    .box-profile img{
+        width: 180px;
+        height: 180px;
+        position:relative;left: 10px;
+
+    }
+    .box-profile h2{
+        color: #000;
     }
